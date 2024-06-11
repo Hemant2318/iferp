@@ -1,0 +1,57 @@
+.advertisement-container {
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .multiple-items {
+        .carousel-control-next {
+            top: 50%;
+            right: 0;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            box-shadow: 0px 3px 10px 0px #00000029;
+            background-color: #FFFFFF;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+        }
+    }
+
+    .fade-slide {
+        opacity: 0;
+        transition: all 0.5s ease-in;
+    }
+
+    .fade-slide.active {
+        opacity: 1;
+    }
+
+    .advertise-poster-block {
+        height: 380px;
+        position: relative;
+
+
+        .advertise-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    // .arrow-block {
+    //     top: 50%;
+    //     right: 50px;
+    //     position: absolute;
+    //     width: 25px;
+    //     height: 25px;
+    //     box-shadow: 0px 3px 10px 0px #00000029;
+    //     background-color: #FFFFFF;
+    //     border-radius: 100%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+}

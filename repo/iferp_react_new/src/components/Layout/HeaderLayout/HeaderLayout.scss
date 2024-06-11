@@ -1,0 +1,15 @@
+#header-layout-container {
+  .layout-header-block {
+    background-color: var(--ghost-white) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .layout-body-container {
+    height: calc(100vh - 62px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 62px;
+  }
+}

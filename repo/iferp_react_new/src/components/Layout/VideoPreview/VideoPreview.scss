@@ -1,0 +1,44 @@
+#video-preview-container {
+  .video-react .video-react-big-play-button {
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #0255C0 !important;
+    border-radius: 35px;
+  }
+}
+
+.video-size-sm {
+  .video-react .video-react-big-play-button {
+    width: 45px;
+    background-color: #0255C0 !important;
+  }
+}
+
+.video-size-md {
+  .video-react .video-react-big-play-button {
+    width: 66px;
+    height: 66px;
+    border-radius: 50px !important;
+    line-height: 3.9rem;
+    font-size: 3rem;
+    background-color: #0255C0 !important;
+
+  }
+}
+
+.video-size-lg {
+  .video-react .video-react-big-play-button {
+    width: 88px;
+    height: 88px;
+    border-radius: 50px !important;
+    line-height: 5rem;
+    font-size: 3.5rem;
+    background-color: #0255C0 !important;
+
+  }
+}

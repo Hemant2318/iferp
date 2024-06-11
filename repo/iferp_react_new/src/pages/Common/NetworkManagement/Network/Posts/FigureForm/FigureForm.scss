@@ -1,0 +1,18 @@
+#figure-form-container {
+  input[type="file"] {
+    display: none;
+  }
+
+  #cus-fi-upoad {
+    text-align: center;
+    color: #fff;
+    background-color: var(--granite-gray);
+    border-radius: 4px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 123px;
+  }
+}

@@ -1,0 +1,23 @@
+#Sidebar-container {
+  .desktop-logo-container {
+    padding: 8px;
+  }
+
+  // .sidemenu-block{
+  // img {
+  //  filter: invert(13%) sepia(16%) saturate(4594%) hue-rotate(193deg) brightness(86%) contrast(106%);
+  // }
+  // }
+
+  .active-option {
+    background: var(--new-car);
+    border-radius: 37px;
+    color: var(--white);
+    font-weight: 500;
+    margin: 5px 0px;
+
+    img {
+      filter: brightness(120%) contrast(250%) grayscale(100%) invert(100%);
+    }
+  }
+}

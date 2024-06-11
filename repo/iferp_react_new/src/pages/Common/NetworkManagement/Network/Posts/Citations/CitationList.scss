@@ -1,0 +1,21 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.list-dot {
+    border-radius: 50%;
+    height: 3.4px;
+    width: 3.4px;
+    background-color: #A0A0A0;
+    margin-left: 20px;
+}
+
+.view-all {
+    height: 40px;
+    box-shadow: 0 4px 2px 0 rgba(226, 225, 225, 0.2);
+}
+
+.show-few-data {
+    display: none;
+}

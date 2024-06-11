@@ -1,0 +1,25 @@
+#success-box-register {
+  margin-top: 100px;
+  .card-padding {
+    padding: 75px 54px 75px 54px;
+  }
+  .right-tick {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: #2148c01a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .font-100 {
+    font-size: 100px;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+  }
+  .box-height {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 87px);
+  }
+}

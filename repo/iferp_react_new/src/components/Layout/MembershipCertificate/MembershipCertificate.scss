@@ -1,0 +1,74 @@
+#membership-certificate-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2148c0;
+  border-radius: 6px;
+  padding: 17px 16px;
+  height: 100%;
+  cursor: pointer;
+}
+#membership-certificate-image {
+  position: relative;
+  width: 1000px;
+  // width: 100vw;
+  color: #d2b476;
+  div {
+    white-space: nowrap;
+    position: absolute;
+  }
+  .name-block {
+    top: 39.5%;
+    left: 55%;
+    font-size: 19px;
+  }
+  .bio-block {
+    top: 46%;
+    left: 21.5%;
+    font-size: 17px;
+  }
+  .memberType-block {
+    top: 51.3%;
+    left: 39%;
+    font-size: 18px;
+  }
+  .from-block {
+    top: 64.5%;
+    left: 30%;
+    font-size: 17px;
+  }
+  .to-block {
+    top: 64.5%;
+    left: 50%;
+    font-size: 17px;
+  }
+  .membershipID-block {
+    bottom: 11%;
+    left: 35%;
+    font-size: 13px;
+  }
+  .nationality-block {
+    bottom: 8%;
+    left: 35%;
+    font-size: 13px;
+  }
+  .dateOfIssue-block {
+    bottom: 5%;
+    left: 35%;
+    font-size: 13px;
+  }
+  .cert_mem-block {
+    bottom: 2%;
+    left: 35%;
+    font-size: 13px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+  }
+}

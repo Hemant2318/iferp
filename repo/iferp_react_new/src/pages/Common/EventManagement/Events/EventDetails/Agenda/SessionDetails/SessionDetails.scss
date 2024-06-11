@@ -1,0 +1,15 @@
+#session-details-container {
+  .committee-members-card-container {
+    text-align: center;
+    .shadow-block {
+      padding: 14px;
+      margin-top: 14px;
+      .image-block {
+        img {
+          max-height: 194px;
+          max-width: 242px;
+        }
+      }
+    }
+  }
+}

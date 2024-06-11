@@ -1,0 +1,48 @@
+#modal-container {
+  position: relative;
+  border-radius: 6px;
+
+  .modal-close-button {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    font-size: 20px;
+    color: #a9a9a9;
+  }
+
+  .discount-image-block {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 235px;
+    background-color: #35B2E5;
+    border-radius: 7px 7px 0 0;
+    padding: 0;
+
+  }
+
+  .discount-image {
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .discount-modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+  }
+
+  .modal-body {
+    padding: 0 !important;
+  }
+}
+
+.modal-block-custom {
+  padding-right: unset !important;
+}

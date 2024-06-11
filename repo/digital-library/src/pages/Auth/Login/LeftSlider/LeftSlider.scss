@@ -1,0 +1,28 @@
+#left-slider-block {
+  user-select: none;
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: unset;
+  }
+
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: unset;
+  }
+
+
+}

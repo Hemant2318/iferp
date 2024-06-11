@@ -1,0 +1,48 @@
+#common-paper-container {
+  .h-21 {
+    height: 21px;
+  }
+  .graph-flow-container {
+    .btn {
+      font-size: 16px;
+      font-weight: 500;
+      height: 40px;
+      width: 122px;
+    }
+    .flow-icon-block {
+      background: #2148c024;
+      height: 64px;
+      width: 64px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .lable-button-block {
+      background: #2148c024;
+      border-radius: 20px;
+      color: #2148c0;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 12px;
+      padding: 5px 8px;
+      display: flex;
+      justify-content: center;
+      width: fit-content;
+    }
+    .sparator-block {
+      width: 64px;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .hr-line {
+        width: 2.13px;
+        height: 100%;
+        background: #2148c099;
+        border-radius: 6px;
+      }
+    }
+  }
+}

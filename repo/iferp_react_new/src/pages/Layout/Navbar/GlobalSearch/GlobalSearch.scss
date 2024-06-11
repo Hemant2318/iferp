@@ -1,0 +1,35 @@
+#global-search-container {
+  width: 100%;
+  position: relative;
+  .search-suggetion-container {
+    width: 100%;
+    position: absolute;
+    top: 47px;
+    z-index: 9;
+    background-color: var(--white);
+    border-radius: 4px;
+    .search-list-item {
+      cursor: pointer;
+      &:hover {
+        background-color: var(--new-car-light);
+      }
+    }
+    .list-group-flush {
+      max-height: 185px;
+      overflow-y: auto;
+    }
+  }
+}
+.search-available {
+  #SeachInput-container .input-container .text-input {
+    border-color: var(--american-silver);
+    border-radius: 6px 6px 0px 0px;
+  }
+  .search-suggetion-container {
+    top: 45px !important;
+    border-radius: 0px 0px 6px 6px !important;
+    padding: 0px 5px;
+    border: 1px solid var(--american-silver);
+    border-top: unset;
+  }
+}

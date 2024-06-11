@@ -1,0 +1,28 @@
+#common-registration-block {
+  .table-header-container {
+    .table-header-row-container {
+      .header-cell {
+        text-align: center;
+        vertical-align: middle;
+        background-color: var(--new-car);
+        color: var(--white);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 13px 0px;
+      }
+    }
+  }
+  .table-body-container {
+    .table-body-row-container {
+      .row-cell {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 13px 0px;
+      }
+    }
+  }
+}

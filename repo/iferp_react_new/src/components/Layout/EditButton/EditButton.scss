@@ -1,0 +1,28 @@
+.common-edit-button {
+  height: 34px !important;
+  width: 84px !important;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 4px !important;
+}
+
+.edit-icon {
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0px 1px 4px 0px #0000001F;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.below-pp {
+  position: absolute;
+  bottom: -30%;
+}
+
+.beside-un {
+  // margin-bottom: 5px;
+}

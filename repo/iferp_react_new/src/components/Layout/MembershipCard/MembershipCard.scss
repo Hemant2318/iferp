@@ -1,0 +1,74 @@
+#membership-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2148c0;
+  border-radius: 6px;
+  padding: 17px 16px;
+  height: 100%;
+  cursor: pointer;
+}
+#membership-card-image {
+  position: relative;
+  width: 500px;
+  color: #ffffff;
+  .profile-block {
+    position: absolute;
+    top: 26%;
+    left: 12%;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+  }
+  .membership-block {
+    position: absolute;
+    top: 12%;
+    left: 44%;
+    font-size: 20px;
+  }
+  .qrCode-block {
+    position: absolute;
+    bottom: 5%;
+    right: 12%;
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+  }
+  .number-block {
+    position: absolute;
+    top: 56%;
+    font-size: 30px;
+    left: 11%;
+    font-weight: 500;
+  }
+  .date-block {
+    position: absolute;
+    bottom: 21%;
+    left: 47%;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .name-block {
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .type-block {
+    position: absolute;
+    bottom: 3%;
+    left: 12%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+  }
+}

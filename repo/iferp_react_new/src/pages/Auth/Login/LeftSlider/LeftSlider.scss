@@ -1,0 +1,35 @@
+#left-slider-block {
+  user-select: none;
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: unset;
+  }
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: unset;
+  }
+  .icon-flud-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    img {
+      height: 80px;
+    }
+  }
+}

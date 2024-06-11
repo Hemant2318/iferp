@@ -1,0 +1,90 @@
+#global-navbar-container {
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid rgba(224, 233, 244, 0.6);
+  .desktop-logo-container {
+    padding: 8px;
+  }
+  .main-con {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .left-logo {
+      width: 25%;
+    }
+    .center-search {
+      width: 35%;
+    }
+    .right-button {
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #global-navbar-container {
+    .main-con {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px 10px;
+      .left-logo {
+        width: 100%;
+      }
+      .center-search {
+        width: 100%;
+        margin: 10px 0px;
+      }
+      .right-button {
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #global-navbar-container {
+    .main-con {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px 10px;
+      .left-logo {
+        width: 30%;
+      }
+      .center-search {
+        width: 70%;
+        margin: 10px 0px;
+      }
+      .right-button {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #global-navbar-container {
+    .main-con {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .left-logo {
+        width: 28%;
+      }
+      .center-search {
+        width: 35%;
+      }
+      .right-button {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+      }
+    }
+  }
+}

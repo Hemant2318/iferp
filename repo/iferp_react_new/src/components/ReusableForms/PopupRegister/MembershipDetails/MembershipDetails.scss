@@ -1,0 +1,255 @@
+#member-container {
+  .h-69 {
+    height: 69px;
+  }
+
+  .h-66 {
+    height: 66px;
+  }
+
+  .h-48 {
+    height: 48px;
+  }
+
+  .h-42 {
+    height: 42px;
+  }
+
+  .h-54 {
+    height: 54px;
+  }
+
+  .img-h-w-18 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .img-h-w-16 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .box-1:nth-child(even) {
+    background-color: #f1f7ff;
+  }
+
+  .box-1:nth-child(odd) {
+    background-color: #f2f7ff78;
+  }
+
+  .box-2:nth-child(even) {
+    background-color: #f1f7ff;
+  }
+
+  .box-2:nth-child(odd) {
+    background-color: #f2f7ff78;
+  }
+
+  .box-3:nth-child(even) {
+    background-color: #f1f7ff;
+  }
+
+  .box-3:nth-child(odd) {
+    background-color: #f2f7ff78;
+  }
+
+  .card-redius {
+    border-radius: 24px;
+  }
+
+  .div-redius-top {
+    border-radius: 24px 24px 0px 0px;
+  }
+
+  .div-redius-bottom {
+    border-radius: 0px 0px 24px 24px !important;
+  }
+
+  .free-premium-font {
+    font-family: Poppins !important;
+  }
+
+  // eslint-disable-next-linen
+  .display-start-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .space-between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .align-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .modal-content {
+    width: 1000px !important;
+  }
+
+  .modal-body {
+    min-width: 1000px !important;
+  }
+
+  .card-box-shadow {
+    box-shadow: 0px 4px 12px 0px #bcc9f187 !important;
+  }
+
+  .premium-button-container,
+  .free-button-container {
+    border-radius: 0px 0px 24px 24px;
+  }
+
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+
+  .h-hide {
+    display: flex;
+  }
+
+  .s-hide {
+    display: block;
+  }
+
+  // // screen 1024px
+  // @media only screen and (max-width: 1024px) {
+  //   .modal-content {
+  //     width: 900px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 900px !important;
+  //   }
+  // }
+
+  // @media only screen and (max-width: 992px) {
+  //   .modal-content {
+  //     width: 800px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 800px !important;
+  //   }
+  // }
+
+  // // screen 768px
+  // @media only screen and (max-width: 768px) {
+  // .h-hide {
+  //   display: none !important;
+  // }
+
+  // .s-hide {
+  //   display: block !important;
+  // }
+
+  //   .modal-content {
+  //     width: 708px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 708px !important;
+  //   }
+  // }
+
+  // // screen 425px
+  // @media only screen and (max-width: 425px) {
+  //   .h-hide {
+  //     display: none !important;
+  //   }
+
+  //   .s-hide {
+  //     display: block !important;
+  //   }
+
+  //   .modal-content {
+  //     width: 390px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 390px !important;
+  //   }
+  // }
+
+  // // screen 375px
+  // @media only screen and (max-width: 375px) {
+  //   .h-hide {
+  //     display: none !important;
+  //   }
+
+  //   .s-hide {
+  //     display: block !important;
+  //   }
+
+  //   .modal-content {
+  //     width: 350px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 350px !important;
+  //   }
+
+  //   .modal {
+  //     --bs-modal-margin: 10px !important;
+  //   }
+  // }
+
+  // // screen 320px
+  // @media only screen and (max-width: 320px) {
+  //   .h-hide {
+  //     display: none !important;
+  //   }
+
+  //   .s-hide {
+  //     display: block !important;
+  //   }
+
+  //   .modal-content {
+  //     width: 300px !important;
+  //   }
+
+  //   .modal-body {
+  //     min-width: 300px !important;
+  //   }
+
+  //   .modal {
+  //     --bs-modal-margin: 8px !important;
+  //   }
+  // }
+
+  // // screen 769px show desktop size popoup open
+  // @media only screen and (min-width: 769px) {
+  //   .s-hide {
+  //     display: none !important;
+  //   }
+  // }
+}
+
+@media (min-width: 0px) and (max-width: 999px) {
+  #member-container {
+
+
+    .h-hide {
+      display: none !important;
+    }
+
+    .s-hide {
+      display: block !important;
+    }
+  }
+
+  #register-popup-body-block {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+}

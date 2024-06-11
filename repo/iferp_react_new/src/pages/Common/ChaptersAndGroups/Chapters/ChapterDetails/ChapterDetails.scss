@@ -1,0 +1,26 @@
+#chapter-details-container {
+  .our-people-card-container {
+    text-align: center;
+
+    .shadow-block {
+      box-shadow: 0px 4px 16px #00000024;
+      padding: 14px;
+      margin-top: 14px;
+
+      .image-block {
+        img {
+          max-height: 194px;
+          max-width: 242px;
+        }
+      }
+
+      .hover-user-name:hover {
+        text-decoration: underline;
+        font-weight: 700 !important;
+        transition: all 0.3s ease-out !important;
+      }
+    }
+  }
+
+
+}

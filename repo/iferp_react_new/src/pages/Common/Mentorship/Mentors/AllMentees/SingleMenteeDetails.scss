@@ -1,0 +1,38 @@
+.details-m {
+
+    .completed {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #8095A8;
+    }
+
+    .upcoming_pending {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00A74D;
+    }
+
+    .upcoming_accepted {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00A74D;
+    }
+
+    .chat-section {
+        .unread-msg {
+            background-color: #2148c0;
+            color: white;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 45%;
+            top: -3px;
+            right: -4px;
+        }
+    }
+}
+

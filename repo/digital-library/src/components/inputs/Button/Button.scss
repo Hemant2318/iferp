@@ -1,0 +1,59 @@
+#button-container {
+  display: flex;
+  height: fit-content;
+
+  .btn-block {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    border: unset;
+    outline: none;
+    border-radius: 4px;
+    // padding: 13.5px 16px;
+    padding: 0px 16px;
+    height: 48px;
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  .PD {
+    background-color: var(--b8e3);
+    color: var(--ffff);
+  }
+
+  .PO {
+    background-color: var(--ffff);
+    border: 1px solid var(--b8e3);
+    color: var(--b8e3);
+  }
+
+  .SD {
+    background-color: var(--b176);
+    color: var(--ffff);
+  }
+
+  .SO {
+    background-color: var(--ffff);
+    border: 1px solid var(--b176);
+    color: var(--b176);
+  }
+
+  .PSO {
+    background-color: var(--ffff);
+    // border: 1px solid var(--b176);
+    color: var(--b176);
+  }
+
+  .GD {
+    background-color: var(--f0f0);
+    color: var(--4d4d);
+  }
+
+  .GO {
+    background-color: var(--ffff);
+    border: 1px solid var(--abab);
+    color: var(--7070);
+  }
+}

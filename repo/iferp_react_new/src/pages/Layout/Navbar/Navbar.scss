@@ -1,0 +1,130 @@
+#Navbar-container {
+  // background-color: var(--white);
+  padding: 10px 0px 0px 30px;
+  border-bottom: 1px solid rgba(224, 233, 244, 0.6);
+  .saprator {
+    border-left: 1px solid #ebf0f3;
+    height: 60px;
+  }
+  .profile-indicator {
+    height: 22px;
+    width: 22px;
+    background-color: var(--ghost-white);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -13px;
+    border: 0.5px solid var(--white);
+    box-shadow: 0px 4px 10px #00000017;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 12px;
+      width: 12px;
+    }
+  }
+  .u-profile-block {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #83a1ff;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gray-border {
+    border-top: 1px solid #555555;
+  }
+  .my-profile-block {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: var(--white);
+    box-shadow: 0px 4px 12px #0000001f;
+    border-radius: 4px;
+    width: 250px;
+    z-index: 9;
+  }
+  .icon-content {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notify-pointer {
+    background-color: #d8727d;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+  }
+  .notification-icon {
+    position: relative;
+    .notification-popup-container {
+      position: absolute;
+      width: 330px;
+      right: -10px;
+      background-color: white;
+      top: 40px;
+      z-index: 9;
+    }
+  }
+}
+
+// Extra small devices (phones)
+@media only screen and (max-width: 600px) {
+  #Navbar-container {
+    // background-color: red;
+    .notification-icon {
+      .notification-popup-container {
+        right: unset;
+      }
+    }
+  }
+}
+
+// Small devices (portrait tablets and large phones)
+@media only screen and (min-width: 600px) {
+  #Navbar-container {
+    padding: 10px 10px 0px 30px;
+    // background-color: yellow;
+    .notification-icon {
+      .notification-popup-container {
+        right: unset;
+      }
+    }
+  }
+}
+
+// Medium devices (landscape tablets)
+@media only screen and (min-width: 768px) {
+  #Navbar-container {
+    // background-color: green;
+    .notification-icon {
+      .notification-popup-container {
+        right: -10px;
+      }
+    }
+  }
+}
+
+// Large devices (laptop, desktop)
+@media only screen and (min-width: 992px) {
+  // #Navbar-container {
+  //   background-color: blue;
+  // }
+}
+
+// Extra large devices (desktop)
+@media only screen and (min-width: 1200px) {
+  // #Navbar-container {
+  //   background-color: tomato;
+  // }
+}

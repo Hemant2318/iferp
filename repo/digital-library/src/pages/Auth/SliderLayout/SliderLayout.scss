@@ -1,0 +1,36 @@
+#slider-layout-container {
+  height: 100vh;
+  padding: 35px;
+
+  .block {
+    height: calc(100% - 62px);
+  }
+
+  .card-padding {
+    padding: 44px 30px;
+    width: calc(100% - 20%);
+  }
+
+  .singup-card {
+    padding: 50px 45px;
+
+    width: calc(100% - 10%);
+  }
+
+  .box-height {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #slider-layout-container {
+    .card-padding {
+      width: 100%;
+    }
+  }
+}
+
+.v-hide {
+  display: none;
+}

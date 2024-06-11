@@ -1,0 +1,35 @@
+#figures-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  .figure-image-content {
+    width: 25%;
+    // padding: 5px;
+    border: 1px solid var(--platinum);
+    min-height: 120px;
+    position: relative;
+    .view-text-block {
+      position: absolute;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      cursor: pointer;
+    }
+    .figure-view-block {
+      position: absolute;
+      left: 0;
+      right: 0;
+      opacity: 0.7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--platinum);
+      height: 100%;
+      cursor: pointer;
+      color: black;
+    }
+  }
+}

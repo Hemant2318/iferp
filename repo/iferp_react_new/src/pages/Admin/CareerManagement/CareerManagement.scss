@@ -1,0 +1,43 @@
+#career-management-container {
+}
+#industrial-visit-container {
+  .industry-card-block {
+    border: 1px solid #ebeff2;
+    .date-time-block {
+      background-color: var(--new-car);
+      color: var(--white);
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 20px;
+      height: 119px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .right-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px 20px;
+      .location-button-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #button-container {
+        button {
+          height: 42px !important;
+          img {
+            height: 17px;
+          }
+        }
+      }
+    }
+  }
+  #dropdown-button-container {
+    .dropdown-toggle {
+      height: 45px;
+    }
+  }
+}

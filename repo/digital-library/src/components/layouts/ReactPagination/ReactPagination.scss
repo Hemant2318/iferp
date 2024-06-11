@@ -1,0 +1,35 @@
+.react-pagination {
+    .pagination > li {
+        border: none;
+    }
+    .pagination > li > a,
+    .pagination > li > span {
+        float: left;
+        padding: 8px 20px;
+        line-height: 1.5;
+        border: 1px solid #ddd;
+        margin-left: -1px;
+        color: #3D3D3D;
+        margin-top: 10px;
+    }
+    
+    .pagination > li.active > a {
+        color: #3D3D3D;
+        background-color: var(--bbef);
+        border-color: var(--bbef);
+    }
+    .pagination > li > a:hover {
+        color: #3D3D3D;
+        background-color: var(--bbef);
+        cursor: pointer;
+    }
+    .pagination > li:first-child > a,
+    .pagination > li:first-child > span {
+        margin-left: 0;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        --bs-pagination-focus-box-shadow: #fff /* Your custom box-shadow value */;
+    }
+}

@@ -1,0 +1,13 @@
+#findSession-details-container {
+  .left-indicator {
+    position: relative;
+    .count-block {
+      position: absolute;
+      color: var(--ffff);
+      font-size: 15px;
+      font-weight: 500;
+      left: 18px;
+      top: 17px;
+    }
+  }
+}

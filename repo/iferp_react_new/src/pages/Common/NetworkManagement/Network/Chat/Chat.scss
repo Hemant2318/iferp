@@ -1,0 +1,22 @@
+#chat-container {
+  .chat-sidemenu {
+  }
+}
+.my-chat {
+  .tooltip-inner {
+    background-color: var(--new-car) !important;
+    // width: 500px !important;
+  }
+  .tooltip-arrow::before {
+    border-bottom-color: var(--new-car) !important;
+  }
+}
+// @media (max-width: 600px) {
+//   #chat-container {
+//     position: relative;
+//     .chat-sidemenu {
+//       position: absolute;
+//       top: 0;
+//     }
+//   }
+// }

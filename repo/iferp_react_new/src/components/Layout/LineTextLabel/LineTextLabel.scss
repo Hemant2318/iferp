@@ -1,0 +1,19 @@
+#line-text-label-container {
+	display: flex;
+	flex-direction: row;
+	color: var(--dark-silver);
+	// margin-bottom: 25px;
+}
+#line-text-label-container:before,
+#line-text-label-container:after {
+	content: '';
+	flex: 1 1;
+	border-bottom: 1px solid var(--gainsboro);
+	margin: auto;
+}
+#line-text-label-container:before {
+	margin-right: 10px;
+}
+#line-text-label-container:after {
+	margin-left: 10px;
+}

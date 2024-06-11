@@ -1,0 +1,15 @@
+#mentor-session-container {
+    overflow: hidden !important;
+
+    .my-session-card-container {
+        // height: 800px;
+        height: calc(100vh - 281px);
+        overflow: auto;
+        // background-color: aqua;
+    }
+
+    .my-session-card-container::-webkit-scrollbar {
+        // display: none;
+    }
+
+}

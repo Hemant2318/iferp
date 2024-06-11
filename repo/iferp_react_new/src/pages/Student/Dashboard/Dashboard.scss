@@ -1,0 +1,21 @@
+#student-dashboard {
+  .counter-block {
+    padding: 15px 24px;
+    .counter-image-block {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background: #2148c012;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px;
+      img {
+        height: 30px;
+      }
+    }
+  }
+  li::marker {
+    color: var(--new-car);
+  }
+}

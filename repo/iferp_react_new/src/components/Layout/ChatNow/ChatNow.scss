@@ -1,0 +1,16 @@
+#chat-now-container {
+  position: fixed;
+  bottom: 14px;
+  right: 8px;
+  background-color: var(--title-navy);
+  color: var(--white);
+  //   padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 43px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

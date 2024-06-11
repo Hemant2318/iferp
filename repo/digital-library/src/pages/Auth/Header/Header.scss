@@ -1,0 +1,28 @@
+.nav_menu {
+    // flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #3d3d3d !important;
+}
+
+
+.active-link {
+    color: #28B8E3 !important;
+    // border-bottom: 1px solid #28B8E3 !important;
+    // padding-bottom: -10px !important;
+    text-decoration: underline !important;
+    text-decoration-line: #28B8E3 !important;
+}
+
+.my-profile-block {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: var(--white);
+    box-shadow: 0px 4px 12px #0000001f;
+    border-radius: 4px;
+    width: 250px;
+    z-index: 9;
+}

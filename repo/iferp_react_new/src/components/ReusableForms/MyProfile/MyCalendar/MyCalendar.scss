@@ -1,0 +1,28 @@
+#MyCalendar-container {
+  .my-calender-nav-block {
+    .my-calender-img-block {
+      height: 52px;
+      width: 52px;
+      background-color: #e1e1e1;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  .my-calender-saprator {
+    height: 30px;
+    border-right: 1px dashed #e1e1e1;
+    width: fit-content;
+    margin-left: 25px;
+  }
+  .my-calender-active {
+    .my-calender-img-block {
+      background-color: var(--new-car);
+    }
+    .my-calender-text-block {
+      color: var(--new-car);
+    }
+  }
+}

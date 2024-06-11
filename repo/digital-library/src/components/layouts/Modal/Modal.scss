@@ -1,0 +1,15 @@
+#modal-container {
+  position: relative;
+  border-radius: 6px;
+  padding-top: 25px;
+  .modal-close-button {
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    font-size: 20px;
+    color: #a9a9a9;
+  }
+}
+.modal-block-custom {
+  padding-right: unset !important;
+}

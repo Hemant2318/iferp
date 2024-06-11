@@ -1,0 +1,15 @@
+#brand-forms-container {
+  .card-profile {
+    height: 60px;
+    width: 60px;
+    background: #2148c012;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 38px;
+      width: 38px;
+    }
+  }
+}

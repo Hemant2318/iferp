@@ -1,0 +1,122 @@
+.custom-check-box-container {
+  position: relative;
+
+  .checkbox-block {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+
+    input {
+      -webkit-appearance: none;
+    }
+
+    .activeChecked {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border: 2px solid var(--new-car);
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .activeChecked:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    .activeChecked:after {
+      display: block;
+    }
+    .activeChecked:after {
+      // left: 4px;
+      // top: 2px;
+      width: 4px;
+      height: 7px;
+      border: solid var(--new-car);
+      border-width: 0 2.5px 2.5px 0;
+      transform: rotate(45deg);
+    }
+
+    // Uncheck Active Type Checkbox
+    .activeUnchecked {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      border: 2px solid #dadada;
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .primaryActiveChecked {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border: 2px solid var(--new-car);
+      background-color: var(--new-car);
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .primaryActiveChecked:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    .primaryActiveChecked:after {
+      display: block;
+    }
+    .primaryActiveChecked:after {
+      width: 4px;
+      height: 7px;
+      border: solid var(--white);
+      border-width: 0 2.5px 2.5px 0;
+      transform: rotate(45deg);
+    }
+
+    // Uncheck Active Type Checkbox
+    .primaryActiveUnchecked {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      border: 2px solid #dadada;
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .checkbox-size-24 {
+    .activeUnchecked,
+    .activeChecked {
+      height: 24px;
+      width: 24px;
+    }
+    .primaryActiveChecked,
+    .primaryActiveUnchecked {
+      height: 24px;
+      width: 24px;
+    }
+    .primaryActiveChecked:after {
+      // left: 8px;
+      // top: 4px;
+      width: 6px;
+      height: 12px;
+    }
+    .activeChecked:after {
+      // left: 8px;
+      // top: 4px;
+      width: 6px;
+      height: 12px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+#CreatableSelect-container {
+  .select__indicator-separator {
+    display: none;
+  }
+  .select__input {
+    text-transform: capitalize;
+  }
+  .select__control,
+  .css-1s2u09g-control,
+  .css-1pahdxg-control {
+    min-height: 45px;
+    padding: 0px 5px;
+    outline: none;
+    box-shadow: unset;
+    border: 1px solid var(--american-silver);
+  }
+  .css-319lph-ValueContainer {
+    padding: unset;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
+  .css-1rhbuit-multiValue {
+    background-color: var(--alice-blue);
+  }
+  .css-xb97g8 {
+    color: var(--new-car);
+  }
+  .css-xb97g8:hover {
+    background-color: var(--alice-blue);
+    color: var(--new-car);
+  }
+  .css-g1d714-ValueContainer {
+    padding: 2px 8px 2px 0px;
+  }
+  .css-12jo7m5 {
+    .multiple-check {
+      display: none;
+    }
+  }
+  .css-yt9ioa-option,
+  .css-1n7v3ny-option {
+    padding: 10px 12px;
+  }
+  .css-9gakcf-option {
+    background-color: var(--alice-blue);
+    color: var(--new-car);
+  }
+  .select__menu-list {
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px transparent;
+      background-color: var(--ghost-white);
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      background-color: var(--ghost-white);
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      background-color: var(--gray);
+    }
+  }
+}

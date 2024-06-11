@@ -1,0 +1,33 @@
+.inbox-list-container,
+.sent-message-list-container {
+  .inbox-list {
+    .inbox-msg-block {
+      #time-block {
+        display: flex;
+        justify-content: flex-end;
+      }
+      #hover-option-block {
+        display: none !important;
+      }
+      &:hover {
+        background: #f9f9f9;
+        #time-block {
+          display: none;
+        }
+        #hover-option-block {
+          display: flex !important;
+        }
+      }
+    }
+  }
+}
+.email-file-container {
+  position: relative;
+  [type="file"] {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+}

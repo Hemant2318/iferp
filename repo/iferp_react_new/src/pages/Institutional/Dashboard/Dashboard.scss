@@ -1,0 +1,72 @@
+#institutional-dashboard {
+  .counter-block {
+    padding: 15px 24px;
+    .counter-image-block {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background: #2148c012;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px;
+      img {
+        height: 30px;
+      }
+    }
+  }
+  li::marker {
+    color: var(--new-car);
+  }
+
+  .people-list {
+    .people-list-block {
+      border: 1px solid #e6e6e6;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 16px;
+      &:last-child {
+        margin-bottom: unset;
+      }
+    }
+  }
+  .group-list {
+    .group-list-block {
+      &:last-child {
+        margin-bottom: unset;
+      }
+    }
+  }
+  .countr-list {
+    // display: flex;
+    // flex-wrap: wrap;
+    .counter-block {
+      // width: calc(50% - 15px);
+      background: rgba(233, 248, 255, 0.8);
+      border-radius: 6px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 15px;
+      color: #027bb0;
+      .progress-block {
+        height: 86px;
+        width: 86px;
+        margin-right: 20px;
+      }
+      &:nth-child(2) {
+        background: rgba(243, 241, 255, 0.9);
+        color: #7661e2;
+      }
+      &:nth-child(3) {
+        background: rgba(255, 245, 239, 0.9);
+        color: #a05d1f;
+      }
+      &:nth-child(4) {
+        background: rgba(239, 243, 255, 0.8);
+        color: #3f65dd;
+      }
+    }
+  }
+}

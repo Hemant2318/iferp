@@ -1,0 +1,50 @@
+#details-mentor-container {
+    #member-session-container {
+        .session-card {
+            background-color: #FFFFFF;
+            box-shadow: 0px 4px 12px 0 #BFCFFF2B;
+        }
+
+        .key-points {
+            border-radius: 4px;
+            padding: 6px 12px;
+            background-color: #F2F6FCE5;
+        }
+
+        .session-title-hover {
+
+            font-size: 16px;
+            font-weight: 500;
+            color: #164371;
+        }
+
+        .session-title-hover:hover {
+            color: #2148C0;
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: #2148C0;
+        }
+    }
+
+    #details-of-session-container {
+        #mentor-session-detail-container {
+            .session-info {
+                box-shadow: 0px 4px 12px #bfcfff2b;
+                border-radius: 4px;
+                background-color: var(--white);
+            }
+
+            .border-bottom {
+                text-decoration-color: #DFEAF3;
+            }
+        }
+    }
+
+    #mentors-mentees-container {
+        .hover-text:hover {
+            color: #C11515;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

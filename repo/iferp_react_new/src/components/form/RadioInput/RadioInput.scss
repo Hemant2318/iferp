@@ -1,0 +1,12 @@
+#radio-input-container {
+  display: flex;
+  align-items: center;
+  .radio-block {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #5b5b5b;
+  }
+  .radio-block:checked {
+    accent-color: var(--new-car);
+  }
+}

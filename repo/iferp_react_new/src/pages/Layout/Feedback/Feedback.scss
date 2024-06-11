@@ -1,0 +1,53 @@
+#feedback-container {
+  position: fixed;
+  right: 10px;
+  top: 80%;
+  .feedback-block {
+    position: relative;
+    .feedback-form {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+      background-color: var(--white);
+      padding: 15px 15px;
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      width: 350px;
+      border-radius: 4px;
+      textarea {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+      .feedback-category-list {
+        .category-item {
+          padding: 5px 10px;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 400;
+        }
+        .active-category {
+          background-color: var(--title-navy);
+          color: var(--white);
+          cursor: none;
+        }
+        .inactive-category {
+          border: 1px solid var(--title-navy);
+          cursor: pointer;
+        }
+      }
+      .emoji-list {
+        display: flex;
+        gap: 20px;
+        i {
+          font-size: 30px;
+        }
+        .active-i {
+          color: var(--title-navy);
+          cursor: none;
+        }
+        .inactive-i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

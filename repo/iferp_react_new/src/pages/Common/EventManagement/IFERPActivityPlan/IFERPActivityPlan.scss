@@ -1,0 +1,66 @@
+.plan-card-block {
+  border: 1px solid #d6d6d6;
+  border-radius: 12px;
+  padding: unset;
+  .title-block {
+    border-radius: 12px 12px 0px 0px;
+    background-color: var(--new-car);
+    height: 78px;
+    color: var(--white);
+    line-height: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-container {
+    padding: 20px;
+    .list-block {
+      padding: 10px 14px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #181818;
+      line-height: 17px;
+    }
+    .active {
+      background-color: #f0f0f0;
+    }
+  }
+}
+#activity-plan-container {
+  .industry-card-block {
+    border: 1px solid #ebeff2;
+    .date-time-block {
+      background-color: var(--new-car);
+      color: var(--white);
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 20px;
+      height: 141px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .right-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px 20px;
+      .location-button-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #button-container {
+        button {
+          height: 42px !important;
+          img {
+            height: 17px;
+          }
+        }
+      }
+    }
+  }
+}

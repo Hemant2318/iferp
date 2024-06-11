@@ -1,0 +1,16 @@
+// #tooltip-popover-container {
+.tooltip-inner {
+  max-width: unset !important;
+  background-color: var(--new-car) !important;
+  box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 6px !important;
+  padding: 5px 10px !important;
+  z-index: 9;
+}
+.tooltip .tooltip-inner {
+  width: unset !important;
+}
+.tooltip-arrow::before {
+  border-bottom-color: var(--new-car) !important;
+}
+// }

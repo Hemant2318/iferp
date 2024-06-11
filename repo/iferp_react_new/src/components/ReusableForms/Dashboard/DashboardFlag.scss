@@ -1,0 +1,36 @@
+#career-list-container {
+  .career-block {
+    background: rgba(1, 99, 235, 0.03);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 27px;
+    padding: 5px;
+    margin-bottom: 20px;
+    .indicator-block {
+      position: relative;
+      img {
+        height: 45px;
+      }
+      .text-block {
+        position: absolute;
+        top: 12px;
+        left: 14px;
+      }
+    }
+  }
+}
+#journal-list-container {
+  .journal-block {
+    display: flex;
+    align-items: center;
+    .image-block {
+      width: 118px;
+      height: 85px;
+      border: 1px solid #ebeff2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      padding: 5px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#top-researcher-block-container {
+    .next-button {
+        width: 25px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background: #FFFFFF;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 4px 10px 0px #2148C01A;
+        z-index: 999;
+    }
+}

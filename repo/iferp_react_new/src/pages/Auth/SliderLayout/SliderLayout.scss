@@ -1,0 +1,25 @@
+#slider-layout-container {
+  height: 100vh;
+  .container {
+    height: calc(100% - 62px);
+  }
+  .card-padding {
+    padding: 44px 30px;
+    width: calc(100% - 20%);
+  }
+
+  .box-height {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #slider-layout-container {
+    .card-padding {
+      width: 100%;
+    }
+  }
+}
+.v-hide {
+  display: none;
+}

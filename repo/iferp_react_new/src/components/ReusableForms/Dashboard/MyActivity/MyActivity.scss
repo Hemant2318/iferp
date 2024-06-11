@@ -1,0 +1,47 @@
+.my-activity-container {
+  table {
+    width: 100%;
+  }
+
+  table,
+  td {
+    border-collapse: collapse;
+  }
+
+  thead {
+    display: table;
+    width: calc(100% - 6px);
+    tr {
+      border: 1px solid var(--title-navy);
+    }
+  }
+
+  tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: scroll;
+    border-left: 0.5px solid rgb(222, 222, 222);
+    tr {
+      border-bottom: unset;
+    }
+  }
+
+  th,
+  td {
+    width: 33.33%;
+    padding: 5px;
+    word-break: break-all;
+  }
+
+  tr {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+  }
+}

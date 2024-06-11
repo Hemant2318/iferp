@@ -1,0 +1,38 @@
+.footer-block {
+  border-top: 1px solid var(--edf0);
+  padding: 16.5px 25px 16.5px 15px;
+  .page-btn {
+    cursor: pointer;
+    border: 1px solid #eaedf0;
+    background-color: var(--ffff);
+    color: var(--2749);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    user-select: none;
+  }
+  .active-page-btn {
+    border: 1px solid #bbefff;
+    background-color: #bbefff;
+    color: var(--0000);
+  }
+  .icon-btn {
+    cursor: pointer;
+    border: 1px solid #dcdee3;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    border-radius: 4px;
+    user-select: none;
+    img {
+      height: 16px;
+    }
+  }
+}

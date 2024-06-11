@@ -1,0 +1,62 @@
+#profileblock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @mixin image-size($size, $f-size, $f-weight) {
+    height: $size;
+    width: $size;
+    min-width: $size;
+    font-size: $f-size !important;
+    font-weight: $f-weight !important;
+    line-height: 20px !important;
+  }
+  .s-25 {
+    @include image-size(25px, 10px, 700);
+  }
+  .s-30 {
+    @include image-size(30px, 12px, 700);
+  }
+  .s-45 {
+    @include image-size(45px, 15px, 700);
+  }
+  .s-50 {
+    @include image-size(50px, 20px, 700);
+  }
+  .s-60 {
+    @include image-size(60px, 22px, 700);
+  }
+  .s-75 {
+    @include image-size(75px, 26px, 700);
+  }
+  .s-100 {
+    @include image-size(100px, 34px, 700);
+  }
+  //   .s-22 {
+  //     @include image-size(22px, 10px, 600);
+  //   }
+  //   .s-34 {
+  //     @include image-size(34px, 16px, 600);
+  //   }
+  //   .s-48 {
+  //     @include image-size(48px, 20px, 600);
+  //   }
+  //   .s-52 {
+  //     @include image-size(52px, 24px, 600);
+  //   }
+  //   .s-60 {
+  //     @include image-size(60px, 30px, 600);
+  //   }
+  //   .s-68 {
+  //     @include image-size(68px, 32px, 600);
+  //   }
+  //   .s-100 {
+  //     @include image-size(100px, 50px, 600);
+  //   }
+  //   .s-136 {
+  //     @include image-size(136px, 60px, 600);
+  //   }
+  //   .s-163 {
+  //     @include image-size(163px, 60px, 600);
+  //   }
+}

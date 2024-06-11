@@ -1,0 +1,20 @@
+#selection-container {
+  .arrow-block {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .r-icon-block {
+      background: #eef1ff;
+      border-radius: 4px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+#guide-line-popup {
+    .question-block {
+        height: 500px;
+        overflow: auto;
+
+        .list {
+            list-style-type: disc !important;
+            padding-left: 18px;
+        }
+    }
+
+    .hover-text:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

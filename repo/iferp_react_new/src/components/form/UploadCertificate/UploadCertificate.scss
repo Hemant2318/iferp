@@ -1,0 +1,41 @@
+#upload-certificate-container {
+  .sc-bczRLJ {
+    min-width: 100%;
+    max-width: 100%;
+
+    #drop-area-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      background: #f9f9fb;
+      border: 1px dashed #c6ccd6;
+      padding: 47px;
+      height: 211px;
+    }
+  }
+  .list-container {
+    max-height: 275px;
+    overflow: auto;
+    padding-right: 2px;
+    .list-block {
+      border: 1px solid #eeeeee;
+      border-radius: 2px;
+      padding: 17px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left-block {
+        display: flex;
+        align-items: center;
+        .image-type {
+          margin-right: 18px;
+        }
+        .image-info {
+        }
+      }
+      .delete-block {
+      }
+    }
+  }
+}

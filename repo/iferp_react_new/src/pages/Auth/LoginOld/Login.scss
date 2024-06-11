@@ -1,0 +1,14 @@
+#Login-container {
+  .card-padding {
+    padding: 44px 54px;
+  }
+  #custom-card-container {
+    width: 531px;
+  }
+  .box-height {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 87px);
+    width: 100%;
+  }
+}

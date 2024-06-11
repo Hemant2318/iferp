@@ -1,0 +1,156 @@
+$img1: url("../../../assets/icons/temp/b1.png");
+$img2: url("../../../assets/icons/temp/b2.png");
+$img3: url("../../../assets/icons/temp/b3.png");
+$img4: url("../../../assets/icons/temp/b4.png");
+
+#proffetional-dashboard {
+  .fake-chart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 70px !important;
+    background-color: #fff;
+    background-size: 100% 1.2em;
+    background-image: -webkit-linear-gradient(
+        0deg,
+        transparent 79px,
+        #abced4 79px,
+        #abced4 81px,
+        transparent 81px
+      ),
+      -webkit-linear-gradient(#eee 0.05em, transparent 0.05em);
+    background-image: -moz-linear-gradient(
+        0deg,
+        transparent 79px,
+        #abced4 79px,
+        #abced4 81px,
+        transparent 81px
+      ),
+      -moz-linear-gradient(#eee 0.05em, transparent 0.05em);
+    background-image: -ms-linear-gradient(
+        0deg,
+        transparent 79px,
+        #abced4 79px,
+        #abced4 81px,
+        transparent 81px
+      ),
+      -ms-linear-gradient(#eee 0.05em, transparent 0.05em);
+    background-image: -o-linear-gradient(
+        0deg,
+        transparent 79px,
+        #abced4 79px,
+        #abced4 81px,
+        transparent 81px
+      ),
+      -o-linear-gradient(#eee 0.05em, transparent 0.05em);
+    background-image: linear-gradient(
+        0deg,
+        transparent 79px,
+        #abced4 79px,
+        #abced4 81px,
+        transparent 81px
+      ),
+      linear-gradient(#eee 0.05em, transparent 0.05em);
+    //   -pie-background: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0 / 100% 1.2em, linear-gradient(#eee .05em, transparent .05em) 0 0 / 100% 1.2em #fff;
+
+    .block-items {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-end;
+      gap: 50px;
+      height: 100%;
+      .b1-block {
+        background-image: $img1;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 25%;
+        height: 20%;
+        position: relative;
+        .top-bb-block {
+          color: #19a1bf;
+        }
+        .bottom-bb-block {
+          background: #1496b1;
+        }
+      }
+      .b2-block {
+        background-image: $img2;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 25%;
+        height: 35%;
+        position: relative;
+        .top-bb-block {
+          color: #0a75ad;
+        }
+        .bottom-bb-block {
+          background: #0c77b0;
+        }
+      }
+      .b3-block {
+        background-image: $img3;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 25%;
+        height: 60%;
+        position: relative;
+        .top-bb-block {
+          color: #264cb8;
+        }
+        .bottom-bb-block {
+          background: #2951bb;
+        }
+      }
+      .b4-block {
+        background-image: $img4;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 25%;
+        height: 80%;
+        position: relative;
+        .top-bb-block {
+          color: #3c3b92;
+        }
+        .bottom-bb-block {
+          background: #404098;
+        }
+      }
+      .top-bb-block {
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+        position: absolute;
+        top: -30px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: fit-content;
+      }
+      .bottom-bb-block {
+        position: absolute;
+        bottom: -40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        width: 100%;
+        text-align: center;
+        padding: 7px 0px;
+        white-space: nowrap;
+      }
+    }
+    .saprator-bottom {
+      background: #dbdbdb;
+      padding: 2px;
+      width: 100%;
+    }
+  }
+}

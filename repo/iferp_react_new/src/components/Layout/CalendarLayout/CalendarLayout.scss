@@ -1,0 +1,97 @@
+#calendar-layout-container {
+  .w-seprator {
+    width: 14.28571428571429%;
+  }
+
+  .week-title {
+    width: 14.28571428571429%;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--2e44);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      border: 1px solid;
+      border-color: transparent;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+  }
+
+  .month-day {
+    width: 14.28571428571429%;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--2e44);
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .day-block {
+      position: relative;
+      border: 1px solid;
+      border-color: transparent;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      .view-pointer {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+
+  .inactive-day {
+    color: #b4bedd;
+  }
+
+  .inactive-day-select {
+    span {
+      border: 1px solid #858ca3 !important;
+      color: #858ca3;
+      background: #FFFFFF;
+      border-radius: 50%;
+    }
+  }
+
+  .future-day {
+    span {
+      border: 1px solid #e9eeff;
+      color: #435261;
+      background-color: #e9eeff;
+    }
+  }
+
+  .active-day {
+    span {
+      border: 1px solid #2148c0;
+      color: #ffffff;
+      background-color: #2148c0;
+    }
+  }
+
+  .reschedule-day {
+    span {
+      border: 1px solid #0ca32d;
+      color: #ffffff;
+      background-color: #0ca32d;
+    }
+  }
+}

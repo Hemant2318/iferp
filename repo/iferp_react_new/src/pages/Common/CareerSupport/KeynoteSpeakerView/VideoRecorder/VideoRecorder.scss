@@ -1,0 +1,16 @@
+#video-recorder-container {
+    .btn-vd-play {
+        background-color: rgb(130, 0, 0);
+        color: var(--white);
+        padding: 1px;
+        font-size: 30px;
+        padding: 15px 15px 15px 20px;
+        border-radius: 50%;
+        border: 1px solid var(--white);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,33 @@
+.footer-block {
+
+    .custom-icon {
+        width: 23px;
+        height: 23px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .instagram-bg {
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+
+    .dotted-border {
+        border: 1px dashed #7E7E7E;
+    }
+
+    .hover-link:hover {
+        text-decoration: underline;
+        color: var(--new-car) !important;
+    }
+
+    .footer-image {
+        .info-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+}

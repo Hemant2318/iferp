@@ -1,0 +1,22 @@
+#all-my-submission-container {
+
+    .my-submission-card-container {
+        // height: 800px;
+        height: calc(100vh - 280px);
+        overflow: auto;
+    }
+
+    .chat-section {
+        .unread-msg {
+            background-color: #2148c0;
+            color: white;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 45%;
+            top: -3px;
+            right: -4px;
+        }
+    }
+}

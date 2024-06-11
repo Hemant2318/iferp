@@ -1,0 +1,38 @@
+#custom-tab-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  >div {
+    cursor: pointer;
+  }
+
+  .tab-block {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--3d3d);
+    padding: 5px 15px;
+  }
+
+  .active-tab {
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--b8e3);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+  }
+
+  .active-tab-discussion {
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--b176);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+  }
+
+  .inactive-tab {
+    cursor: pointer;
+  }
+}

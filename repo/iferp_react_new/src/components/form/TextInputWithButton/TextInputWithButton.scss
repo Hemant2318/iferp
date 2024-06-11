@@ -1,0 +1,48 @@
+#textInput-with-button-container {
+    width: 85%;
+
+    #email-input-container {
+        background: white;
+        position: relative;
+        border: 1px solid #FF4D009C;
+        border-radius: 70px;
+        width: fit-content;
+        padding: 3px 3px 3px 10px;
+        width: 100%;
+
+        .email_input {
+            padding: 12px;
+            width: calc(100% - 48px);
+            border: unset !important;
+            background: transparent;
+            color: #6C6C6C;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 15px;
+            font-weight: 400;
+
+            &:focus {
+                outline: unset !important;
+            }
+
+            &::placeholder {
+                color: #6C6C6C;
+            }
+        }
+
+        .arrow-button {
+            position: absolute;
+            right: -8px;
+            padding-right: -58px;
+            border-radius: 50%;
+        }
+
+
+        .disable-arrow {
+            opacity: 0.5;
+            pointer-events: none;
+            border: none !important;
+            background: none;
+        }
+    }
+}

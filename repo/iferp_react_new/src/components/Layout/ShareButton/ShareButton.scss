@@ -1,0 +1,62 @@
+#share-button-block {
+  display: flex;
+}
+.share-button-popup {
+  .share-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .copy-container {
+      width: 100%;
+      background: #fafafa;
+      border: 1px solid #d8d8d8;
+      border-radius: 4px;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .copy-button {
+      position: absolute;
+      right: 20px;
+      color: var(--new-car);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+
+.close-icon {
+  height: 10px !important;
+}
+
+.selected-name-border {
+  border-radius: 8px;
+  border-color: #0000002d !important;
+}
+
+.community-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.community-section {
+  background-color: #DBF7FF;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.community-text {
+  color: #00B2E8;
+}
+
+.share-to-community-popup-scroll {
+  max-height: 460px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

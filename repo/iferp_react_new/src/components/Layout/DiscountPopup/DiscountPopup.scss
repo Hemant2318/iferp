@@ -1,0 +1,21 @@
+#discount-popup-container {
+    .digit-block {
+        width: 62px;
+        height: 62px;
+        background-color: #FE380C;
+        border-radius: 2px;
+    }
+
+    .price-strike {
+        text-decoration-line: line-through;
+        text-decoration-color: red;
+    }
+
+    .even-row {
+        background-color: #F1F7FF;
+    }
+
+    .odd-row {
+        background-color: #E5EBFF;
+    }
+}

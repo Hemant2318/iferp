@@ -1,0 +1,47 @@
+$chatProfileImage: url("../../../assets/icons/logo/chatProfileImage.svg");
+#chat-profile-container {
+  .chat-user-profile-block {
+    position: relative;
+    .top-block {
+      background-image: $chatProfileImage;
+      height: 101px;
+      background-size: cover;
+      position: relative;
+      .edit-prof {
+        padding: 5px 9px 5px 9px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+    }
+    .center-block {
+      padding: 5px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--white);
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    .bottom-block {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      height: 150px;
+    }
+  }
+}

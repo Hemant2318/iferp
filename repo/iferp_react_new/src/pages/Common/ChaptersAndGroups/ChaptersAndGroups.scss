@@ -1,0 +1,19 @@
+#chapters-and-groups-container {
+  .chapter-block {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .r-icon-block {
+      background: #eef1ff;
+      border-radius: 4px;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

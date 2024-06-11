@@ -1,0 +1,27 @@
+#overlap-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .avatar {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+  }
+
+  .avatar:not(:first-child) {
+    margin-left: -18px;
+    -webkit-mask: radial-gradient(
+      circle 16px at 5px 50%,
+      transparent 99%,
+      #fff 100%
+    );
+    mask: radial-gradient(circle 16px at 5px 50%, transparent 99%, #fff 100%);
+  }
+
+  .avatar img {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,45 @@
+#admin-dashboard-container {
+  .card-profile {
+    height: 60px;
+    width: 60px;
+    background: #2148c012;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 38px;
+      width: 38px;
+    }
+  }
+  .border-b {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .border-r {
+    border-right: 1px solid #f1f1f1;
+  }
+  .rated-list-container {
+    margin-top: 20px;
+    .rated-list-block {
+      background: #e5f7ff;
+      border-radius: 6px;
+      padding: 26px 33px;
+      text-align: center;
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: unset;
+      }
+      .star-list {
+        color: var(--bs-yellow);
+        font-size: 20px;
+        margin-top: 10px;
+        i {
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}

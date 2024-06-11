@@ -1,0 +1,37 @@
+#scuccess-popup-container {
+  padding: 50px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  #scuccess-popup-container {
+    padding: 30px 0px;
+    .header-icon {
+      height: 130px;
+      display: flex;
+      justify-content: center;
+    }
+    .title-con-block {
+      font-size: 20px !important;
+      margin: 30px 0px 26px 0px !important;
+    }
+    .tit-description-block {
+      div {
+        font-size: 14px !important;
+      }
+    }
+    button {
+      height: 40px !important;
+      font-size: 16px !important;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #scuccess-popup-container {
+    padding: 30px 0px;
+    .header-icon {
+      height: 180px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+#all-my-sessions-container {
+
+    .my-sessions-card-container {
+        height: calc(100vh - 281px);
+        overflow: auto;
+    }
+}

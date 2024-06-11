@@ -1,0 +1,208 @@
+#post-container {
+  .group-list {
+    .group-list-block {
+      &:last-child {
+        margin-bottom: unset;
+      }
+    }
+  }
+}
+.chat-message-container {
+  .border-bottom-prof {
+    border-bottom: 1px solid #f8f8f8;
+  }
+  .chat {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    transform: rotate(180deg);
+    direction: rtl;
+    height: calc(100vh - 385px);
+    overflow: auto;
+    &__wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      #line-text-label-container {
+        transform: rotate(180deg);
+      }
+    }
+    &__message {
+      font-size: 14px;
+      padding: 5px 10px;
+      border-radius: 0px;
+      color: #000;
+      background-color: #f2f2f7;
+      max-width: 600px;
+      min-width: 200px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      position: relative;
+      margin: 15px 0;
+      word-break: break-all;
+      transform: rotate(180deg);
+      direction: ltr;
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 0px 6px 6px 0px;
+      &__text {
+        font-size: 13px;
+        font-weight: 400;
+      }
+      &__date {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: right;
+        color: #666666;
+      }
+      &:after {
+        content: "";
+        width: 20px;
+        height: 12px;
+        display: block;
+        background-image: url("../../../../assets/icons/logo/lightBubble.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        left: -14px;
+        top: 0px;
+      }
+
+      &__own {
+        color: #fff;
+        margin-left: auto;
+        background-color: #2148c0;
+        border-radius: 6px 0px 0px 6px;
+        &:after {
+          width: 19px;
+          height: 13px;
+          left: inherit;
+          right: -12px;
+          top: 0px;
+          bottom: unset;
+          background-image: url("../../../../assets//icons/logo/primaryBubble.svg");
+        }
+      }
+      &__msg_file {
+        background-color: transparent;
+        color: #000;
+        border: 2px solid #2148c0;
+        border-radius: 6px;
+        &:after {
+          background-image: unset;
+        }
+      }
+      &__deleted {
+        opacity: 0.5;
+      }
+    }
+  }
+  .chat__message__own {
+    .chat__message__date {
+      color: #fff;
+    }
+  }
+  .chat__message__msg_file {
+    .chat__message__date {
+      color: #000;
+    }
+  }
+  .typing-container {
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+  }
+  .chat-input-container {
+    border-top: 1px solid #f4f4f4;
+    padding-top: 20px;
+    .chat-i-block {
+      position: relative;
+      .left-emoji-icon {
+        position: absolute;
+        left: 10px;
+        top: 11px;
+        cursor: pointer;
+      }
+      #post-input {
+        width: 100%;
+        height: 45px;
+        padding: 13px 70px 13px 35px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        border-radius: 4px;
+        border: unset;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        &:focus {
+          outline: none;
+        }
+      }
+      .create-post-icon-container {
+        position: absolute;
+        top: 11px;
+        right: 0px;
+        background-color: var(--white);
+        z-index: 99;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        .file-loader-block {
+          height: 18px;
+          margin-right: 10px;
+          cursor: pointer;
+          text-align: center;
+        }
+        .create-post-icon {
+          input[type="file"] {
+            display: none;
+          }
+          height: 18px;
+          margin-right: 10px;
+          cursor: pointer;
+          text-align: center;
+        }
+        .post-send {
+          background-color: var(--new-car);
+          padding: 7px 9px 6px 8px;
+          color: var(--white);
+          border-radius: 4px;
+          font-size: 14px;
+          margin-right: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.chat-user-list {
+  height: calc(100vh - 335px);
+  overflow: auto;
+  .chat-user-block {
+    &:hover {
+      background: rgba(33, 72, 192, 0.06);
+    }
+  }
+}
+.post-options-list {
+  div {
+    padding: 10px 10px 10px 15px;
+    &:hover {
+      background-color: var(--new-car) !important;
+      color: var(--white) !important;
+    }
+  }
+}

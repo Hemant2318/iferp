@@ -1,0 +1,97 @@
+.user-swiper {
+    // height: 350px;
+    // padding: px;
+    padding: 50px 20px;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+.swiper-slide:first-child {
+    margin-left: 0px !important;
+}
+
+.swiper-slide:last-child {
+    margin-right: 0px !important;
+}
+
+
+.buttons-for-slider {
+    // background-color: cadetblue !important;
+    position: relative;
+}
+
+.swiper-pagination {
+    display: flex;
+    gap: 10px;
+    // position: absolute;
+    // background-color: yellow;
+
+    .swiper-pagination-bullet {
+        display: flex;
+        justify-content: space-between;
+        height: 13px;
+        width: 13px;
+        opacity: unset;
+        background: #D5DCE5;
+        transition: all 0.2s
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 41px;
+        border-radius: 10px;
+        background-color: #00ae65;
+    }
+}
+
+.left-right-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    .swiper-button-next {
+        position: unset;
+        height: 40px;
+        width: 40px;
+        // background-image: url("../../../../assets/images/icons/roundRightArrow.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+
+    .swiper-button-next::after {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        position: unset;
+        height: 40px;
+        width: 40px;
+        // background-image: url("../../../../assets/images/icons/roundRightArrow.png");
+        rotate: 180deg;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+
+    .swiper-button-prev::after {
+        display: none;
+    }
+}

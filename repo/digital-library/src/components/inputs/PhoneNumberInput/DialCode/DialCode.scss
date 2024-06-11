@@ -1,0 +1,50 @@
+#dial-code-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 45px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid var(--9f9f);
+  border-right: unset;
+  .flag-container {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    cursor: pointer;
+    width: 60px;
+    padding: 0px 16px 0px 16px;
+  }
+  .dial-code-block {
+    height: 45px;
+    border: 1px solid var(--9f9f);
+    display: flex;
+    border-right: unset;
+    align-items: center;
+    padding-left: 16px;
+  }
+  .country-code-selection-container {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 9;
+    background-color: var(--ffff);
+    border: 1px solid var(--9f9f);
+    padding: 5px;
+    border-radius: 4px;
+    .list-containe {
+      max-height: 200px;
+      width: 300px;
+      overflow: auto;
+      padding-right: 5px;
+      .list-item {
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 2px;
+        &:hover {
+          background-color: var(--new-car-light);
+        }
+      }
+    }
+  }
+}

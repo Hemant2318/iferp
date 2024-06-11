@@ -1,0 +1,146 @@
+:root {
+  --7070: #707070;
+  --5555: #555555;
+  --3d3d: #3d3d3d;
+  --4d4d: #4d4d4d;
+  --3434: #343434;
+  --2d2d: #2d2d2d;
+  --1919: #191919;
+  --2121: #212121;
+  --0000: #000000;
+  --b8e3: #28b8e3;
+  --95c1: #0095c1;
+  --fff8: #e8fff8;
+  --b176: #24b176;
+  --b494: #43b494;
+  --ffff: #ffffff;
+  --f0f0: #f0f0f0;
+  --abab: #ababab;
+  --bebe: #bebebe;
+  --f3ff: #dcf3ff;
+  --9f9f: #9f9f9f;
+  --e3e3: #e3e3e3;
+  --6666: #666666;
+  --e1e1: #e1e1e1;
+  --f8ff: #ecf8ff;
+  --f0ff: #eef0ff;
+  --fff1: #defff1;
+  --4A60: #004a60;
+  --F50A: #1dc3f50a;
+  --b8a6: #ffb8a6;
+  --ae65: #00ae65;
+  --97ee: #1597ee;
+  --1ced: #2c1ced;
+  --bc6e: #02bc6e;
+  --c4df: #00c4df;
+  --2dcf: #002dcf;
+  --2fc9: #a12fc9;
+  --8d12: #de8d12;
+  --f6f6: #f6f6f6;
+  --f8f8: #f8f8f8;
+  --7614: #24B17614;
+  --f506: #1DC3F506;
+  --lightBlue: #FBFEFF;
+  --skyBlue: #F6FDFF;
+  --e314: #28B8E314;
+  --b3df: #1FB3DF;
+  --8080: #808080;
+  --fbfb: #FBFBFB;
+  --dede: #DEDEDE;
+  --ebeb: #EBEBEB;
+  --dbdb: #DBDBDB;
+  --bbef: #bbefff;
+  --american-silver: #cecece;
+  --granite-gray: #666666;
+
+
+}
+
+$colors: (
+  "0000": var(--0000),
+  "ffff": var(--ffff),
+  "3d3d": var(--3d3d),
+  "2d2d": var(--2d2d),
+  "b8e3": var(--b8e3),
+  "1919": var(--1919),
+  "95c1": var(--95c1),
+  "b176": var(--b176),
+  "3434": var(--3434),
+  "5555": var(--5555),
+  "7070": var(--7070),
+  "2121": var(--2121),
+  "4d4d": var(--4d4d),
+  "f0f0": var(--f0f0),
+  "abab": var(--abab),
+  "bebe": var(--bebe),
+  "f3ff": var(--f3ff),
+  "9f9f": var(--9f9f),
+  "e3e3": var(--e3e3),
+  "6666": var(--6666),
+  "e1e1": var(--e1e1),
+  "b494": var(--b494),
+  "fff8": var(--fff8),
+  "f8ff": var(--f8ff),
+  "f0ff": var(--f0ff),
+  "fff1": var(--fff1),
+  "4A60": var(--4A60),
+  "F50A": var(--F50A),
+  "b8a6": var(--b8a6),
+  "ae65": var(--ae65),
+  "97ee": var(--97ee),
+  "1ced": var(--1ced),
+  "bc6e": var(--bc6e),
+  "c4df": var(--c4df),
+  "2dcf": var(--2dcf),
+  "2fc9": var(--2fc9),
+  "8d12": var(--8d12),
+  "f6f6": var(--f6f6),
+  "f8f8": var(--f8f8),
+  "7614": var(--7614),
+  "f506": var(--f506),
+  "lightBlue":var(--lightBlue),
+  "skyBlue": var(--skyBlue),
+  "e314": var(--e314),
+  "b3df": var(--b3df),
+  "8080": var(--8080),
+  "fbfb": var(--fbfb),
+  "dede": var(--dede),
+  "ebeb": var(--ebeb),
+  "dbdb": var(--dbdb),
+  "bbef": var(--bbef),
+  "american-silver": var(--american-silver),
+  "granite-gray": var(--granite-gray),
+
+
+);
+
+@each $name,
+$color in $colors {
+  .color-#{$name} {
+    color: $color !important;
+  }
+
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+
+  .b-#{$name} {
+    border: $color 1px solid !important;
+  }
+
+  .bs-#{$name} {
+    border-left: $color 1px solid !important;
+  }
+
+  .be-#{$name} {
+    border-right: $color 1px solid !important;
+  }
+
+  .bt-#{$name} {
+    border-top: $color 1px solid !important;
+  }
+
+  .bb-#{$name} {
+    border-bottom: $color 1px solid !important;
+  }
+}
